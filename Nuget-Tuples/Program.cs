@@ -28,8 +28,8 @@ namespace Nuget_Tuples
                 totalQuantity = totalQuantity + t.quantity;
 
             }
-            Console.WriteLine("Total amount: " + totalAmount);
-            Console.WriteLine("Total quantity: " + totalQuantity);
+            Console.WriteLine("Total revenue: " + totalAmount);
+            Console.WriteLine("Items sold today: " + totalQuantity);
             Console.ReadLine();
 
         }
